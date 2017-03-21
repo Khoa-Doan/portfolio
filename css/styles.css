@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+}
+
+.separator {
+  background-color: #bcbbbb;
+  height: 3px;
+  margin: 20px 0 20px 0;
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+}
