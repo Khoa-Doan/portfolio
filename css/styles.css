@@ -3,13 +3,56 @@ a {
 }
 
 body {
-  margin: auto;
+  font-family: 'Lato', sans-serif;
+  margin: 20px auto 0 auto;
+}
+
+.name, .job, .project-name {
+  color: #747704;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.project-title {
+  color: #bcbbbb;
+}
+
+.project-name, .job {
+  font-weight: 400;
+}
+
+.job {
+  font-size: 20px;
+}
+
+.project-link {
+  color: black;
+  font-size: 16px;
+  line-height: 1.2em;
 }
 
 .separator {
   background-color: #bcbbbb;
-  height: 3px;
+  height: 4px;
   margin: 20px 0 20px 0;
+}
+
+.img-project {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .img-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .name, .job, .project-title {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -17,3 +60,4 @@ body {
     width: 1200px;
   }
 }
+
